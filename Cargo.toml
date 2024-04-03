@@ -1,0 +1,14 @@
+[package]
+name = "tar2cpio"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cpio = "0.2.2"
+tar = "0.4.40"
+
+[[bin]]
+name = "tar2cpio"
+path = "src/bin.rs"
